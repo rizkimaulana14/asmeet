@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import { BsBellFill, BsChatQuoteFill } from 'react-icons/bs';
-import { IoMdSettings } from 'react-icons/Io';
+import { IoMdSettings } from 'react-icons/io';
 import {
     AiFillVideoCamera,
     AiTwotoneHome,
     AiFillClockCircle,
     AiFillCalendar,
-} from 'react-icons/Ai';
+} from 'react-icons/ai';
 
 export default function Sidebar() {
     return (
