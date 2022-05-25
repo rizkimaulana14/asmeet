@@ -1,28 +1,15 @@
-import Meet from './components/meet';
-import Participant from './components/participant';
-import Sidebar from './components/sidebar';
+import Link from 'next/link';
+import Login from './components/auth/login';
+import Register from './components/auth/register';
 
-export default function Home() {
+export default function Auth() {
     return (
         <div>
-            <div id="mobile">
-                <p className="text-center mt-3 font-semibold">
-                    Mohon maaf preview hanya tersedia di versi non mobile.
-                    Dikarenakan belum responsive
-                </p>
+            <div id="login">
+                <Login></Login>
             </div>
-            <div id="app" className="px-4 py-3 flex gap-4">
-                {/* Sidebar */}
-                <Sidebar></Sidebar>
-                {/* End Sidebar */}
-
-                {/* Start meet */}
-                <Meet></Meet>
-                {/* End meet */}
-
-                {/* Participants */}
-                <Participant></Participant>
-                {/* End Participants */}
+            <div id="register">
+                <Register></Register>
             </div>
         </div>
     );
