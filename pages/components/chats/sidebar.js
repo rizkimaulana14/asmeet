@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import { BsBellFill, BsChatQuoteFill } from 'react-icons/bs';
-import { IoMdSettings } from 'react-icons/Io';
+import { IoMdSettings } from 'react-icons/io';
 import {
     AiFillVideoCamera,
     AiTwotoneHome,
     AiFillClockCircle,
     AiFillCalendar,
-} from 'react-icons/Ai';
+} from 'react-icons/ai';
 
 export default function Sidebar() {
     return (
@@ -33,7 +33,7 @@ export default function Sidebar() {
                     </li>
                 </ul>
 
-                <ul className="flex flex-col gap-3 absolute bottom-2/4 left-1">
+                <ul className="flex flex-col gap-3 absolute bottom-2/4 translate-y-2/4 left-1">
                     <li className="flex">
                         <a className="cursor-pointer text-gray-400 hover:text-gray-500 duration-300 rounded-full p-2">
                             <AiTwotoneHome></AiTwotoneHome>
